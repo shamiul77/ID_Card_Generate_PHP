@@ -5,7 +5,6 @@
     margin: 50px;
   }
 
-/* Style for form input fields and buttons */
 input[type=text], select {
   width: 100%;
   padding: 12px 20px;
@@ -16,7 +15,6 @@ input[type=text], select {
   box-sizing: border-box;
 }
 
-/* Style for submit button */
 input[type=submit] {
   width: 100%;
   background-color: #4CAF50;
@@ -28,12 +26,12 @@ input[type=submit] {
   cursor: pointer;
 }
 
-/* Button hover effect */
+
 input[type=submit]:hover {
   background-color: #45a049;
 }
 
-/* General form container styling */
+
 div {
   border-radius: 5px;
   background-color: #f2f2f2;
@@ -58,7 +56,6 @@ div {
       <label for="department">Department</label>
       <input type="text" id="department" name="department" placeholder="Type Your Department...">
 
-      <!-- Submit button -->
       <input type="submit" name="submit" value="Submit">
     </form>
   </div>
